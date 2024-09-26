@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header y Footer*/ 
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 30px;
+}
+
+/* Slider */
+.slider {
+    background-color: brown;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Sección de tarjetas */
+.section_inf {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.promocion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promocion {
+    display: flex;
+    background-color: #99ff99;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px;
+}
+
+
+/* Sección de galería */
+.section_galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.imagen {
+    background-color: #cccccc;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+
+.container-img{
+    background-color: white;
+    padding: 20 px;
+}
+.imagenes{
+    background-color: orange;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+}
